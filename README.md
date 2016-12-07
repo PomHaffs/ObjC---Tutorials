@@ -8,4 +8,8 @@ Series of tutorials covering the basic of Objective-C
 - Properties and Instance variables 
 - Getters & Setters
 - Pointers
+- NSStrings
+- NSNumbers
+- Conditionals 
+- Methods
 
