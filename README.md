@@ -12,4 +12,8 @@ Series of tutorials covering the fundamentals of Objective-C
 - NSNumbers
 - Conditionals 
 - Methods
+- NSArray & NSMutableArray
+- NSDictionarys & NSMutableDictionarys
+- Loops
+- OOP
 
