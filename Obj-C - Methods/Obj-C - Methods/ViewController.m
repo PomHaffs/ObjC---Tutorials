@@ -64,8 +64,16 @@
         //calling the static function
     [Person stateSpecies];
     
-        //Fucntions can be called and linked like this
-    UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://example.com"]]];
+
+    UIImage *image1 = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://example.com"]]];
+    
+    
+    
+    NSString *urlString = @"http://Example.com";
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    UIImage *image2 = [UIImage imageWithData:data];
+    
     
 }
 
