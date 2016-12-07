@@ -1,7 +1,7 @@
 # App---ObjC
 
 ##Description
-Series of tutorials covering the basic of Objective-C
+Series of tutorials covering the fundamentals of Objective-C
 
 ##Things covered in this unit
 - Anatomy of Obj-C files
