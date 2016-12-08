@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+    //Nonatomic - whole values are get/set FASTER than non
+    //Strong - ref is never NIL has to be an OBJ "strong) int age;" Not allowed
+    //Weak - (IBOutlet) more changable
+@property(nonatomic, strong) NSString *name;
 
 @end
 

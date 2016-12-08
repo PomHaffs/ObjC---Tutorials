@@ -13,6 +13,9 @@
 		FE2732601DF8DB79005FBA54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE27325E1DF8DB79005FBA54 /* Main.storyboard */; };
 		FE2732621DF8DB79005FBA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2732611DF8DB79005FBA54 /* Assets.xcassets */; };
 		FE2732651DF8DB79005FBA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2732631DF8DB79005FBA54 /* LaunchScreen.storyboard */; };
+		FE27326E1DF8DD70005FBA54 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FE27326D1DF8DD70005FBA54 /* Person.m */; };
+		FE2732711DF8DD7C005FBA54 /* Backpack.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2732701DF8DD7C005FBA54 /* Backpack.m */; };
+		FE2732741DF8DEFC005FBA54 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2732731DF8DEFC005FBA54 /* School.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		FE2732611DF8DB79005FBA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2732641DF8DB79005FBA54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2732661DF8DB79005FBA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE27326C1DF8DD70005FBA54 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FE27326D1DF8DD70005FBA54 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FE27326F1DF8DD7C005FBA54 /* Backpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backpack.h; sourceTree = "<group>"; };
+		FE2732701DF8DD7C005FBA54 /* Backpack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Backpack.m; sourceTree = "<group>"; };
+		FE2732721DF8DEFC005FBA54 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		FE2732731DF8DEFC005FBA54 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				FE2732631DF8DB79005FBA54 /* LaunchScreen.storyboard */,
 				FE2732661DF8DB79005FBA54 /* Info.plist */,
 				FE2732551DF8DB79005FBA54 /* Supporting Files */,
+				FE27326C1DF8DD70005FBA54 /* Person.h */,
+				FE27326D1DF8DD70005FBA54 /* Person.m */,
+				FE27326F1DF8DD7C005FBA54 /* Backpack.h */,
+				FE2732701DF8DD7C005FBA54 /* Backpack.m */,
+				FE2732721DF8DEFC005FBA54 /* School.h */,
+				FE2732731DF8DEFC005FBA54 /* School.m */,
 			);
 			path = "Obj-C - RetainCycles";
 			sourceTree = "<group>";
@@ -153,7 +168,10 @@
 			files = (
 				FE27325D1DF8DB79005FBA54 /* ViewController.m in Sources */,
 				FE27325A1DF8DB79005FBA54 /* AppDelegate.m in Sources */,
+				FE27326E1DF8DD70005FBA54 /* Person.m in Sources */,
+				FE2732711DF8DD7C005FBA54 /* Backpack.m in Sources */,
 				FE2732571DF8DB79005FBA54 /* main.m in Sources */,
+				FE2732741DF8DEFC005FBA54 /* School.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
