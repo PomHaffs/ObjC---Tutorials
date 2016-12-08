@@ -13,9 +13,8 @@
 @property(nonatomic, strong) NSString *firstName;
 @property(nonatomic, strong) NSString *lastName;
 
+//Func etc needs to be placed here to make publically avalible
 -(id)initWithFirstName:(NSString*)first lastName:(NSString*)last;
-
-    //Func needs to be placed here to make publically avalible
 -(void)printName;
 
 @end

@@ -14,6 +14,12 @@
     
     self.firstName = first;
     self.lastName = last;
+   
+    return [self initWithAge:54];
+}
+
+-(id)initWithAge:(NSInteger)age {
+    
     self = [super init];
     return self;
 }
